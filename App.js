@@ -26,6 +26,12 @@ import Flexbox from "./components/FlexBox";
 import Buttons from "./components/Buttons";
 import RadioButton from "./components/RadioButton";
 import Loader from "./components/Loader";
+import Modal from "./components/Modal";
+import PressableEvent from "./components/PressableEvent";
+import StatusBarAndroid from "./components/StatusBarAndroid";
+import Platform from "./components/Platform";
+import NpmPackages from "./components/NpmPackages";
+import CustomModal from "./components/CustomModal";
 
 function TapasJ() {
   return (
@@ -82,7 +88,13 @@ export default function App() {
       {/* <Flexbox /> */}
       {/* <Buttons /> */}
       {/* <RadioButton /> */}
-      <Loader />
+      {/* <Loader /> */}
+      {/* <Modal /> */}
+      {/* <PressableEvent/> */}
+      {/* <StatusBarAndroid /> */}
+      {/* <Platform/> */}
+      {/* <NpmPackages /> */}
+      <CustomModal/>
     </View>
   );
 }
