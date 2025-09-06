@@ -32,6 +32,9 @@ import StatusBarAndroid from "./components/StatusBarAndroid";
 import Platform from "./components/Platform";
 import NpmPackages from "./components/NpmPackages";
 import CustomModal from "./components/CustomModal";
+import ReactStackNavigation from "./components/ReactStackNavigation";
+import ReactBottomTabNavigation from "./components/ReactBottomTabNavigation";
+import ReactTopTabNavigation from "./components/ReactTopTabNavigation";
 
 function TapasJ() {
   return (
@@ -94,7 +97,10 @@ export default function App() {
       {/* <StatusBarAndroid /> */}
       {/* <Platform/> */}
       {/* <NpmPackages /> */}
-      <CustomModal/>
+      {/* <CustomModal/> */}
+      {/* <ReactStackNavigation /> */}
+      {/* <ReactBottomTabNavigation /> */}
+      <ReactTopTabNavigation />
     </View>
   );
 }
