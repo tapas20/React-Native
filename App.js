@@ -35,6 +35,9 @@ import CustomModal from "./components/CustomModal";
 import ReactStackNavigation from "./components/ReactStackNavigation";
 import ReactBottomTabNavigation from "./components/ReactBottomTabNavigation";
 import ReactTopTabNavigation from "./components/ReactTopTabNavigation";
+import ApiCall from "./components/ApiCall";
+import ListWithApi from "./components/ListWithApi";
+import FlatListWithApi from "./components/FlatListWithApi";
 
 function TapasJ() {
   return (
@@ -100,7 +103,10 @@ export default function App() {
       {/* <CustomModal/> */}
       {/* <ReactStackNavigation /> */}
       {/* <ReactBottomTabNavigation /> */}
-      <ReactTopTabNavigation />
+      {/* <ReactTopTabNavigation /> */}
+      {/* <ApiCall /> */}
+      {/* <ListWithApi /> */}
+      <FlatListWithApi />
     </View>
   );
 }
