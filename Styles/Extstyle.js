@@ -1,9 +1,11 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
-export default ExStyles = StyleSheet.create({
-    ExtTextBoxStyle: {
-        color: 'red',
-        backgroundColor: "yellow",
-        fontSize: 35,
-    }
-})
+const ExStyles = StyleSheet.create({
+  ExtTextBoxStyle: {
+    color: "red",
+    backgroundColor: "yellow",
+    fontSize: 35,
+  },
+});
+
+export default ExStyles;

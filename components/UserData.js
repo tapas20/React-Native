@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 
-export default UserData = (props) => {
+const UserData = (props) => {
   const item = props.item;
   return (
     <View style={styles.box}>
@@ -28,3 +28,5 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+
+export default UserData;

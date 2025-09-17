@@ -38,6 +38,9 @@ import ReactTopTabNavigation from "./components/ReactTopTabNavigation";
 import ApiCall from "./components/ApiCall";
 import ListWithApi from "./components/ListWithApi";
 import FlatListWithApi from "./components/FlatListWithApi";
+import JsonAPiCall from "./components/JsonAPiCall";
+import SearchUsingApi from "./components/SearchUsingApi";
+import RefInRN from "./components/RefInRN";
 
 function TapasJ() {
   return (
@@ -106,7 +109,10 @@ export default function App() {
       {/* <ReactTopTabNavigation /> */}
       {/* <ApiCall /> */}
       {/* <ListWithApi /> */}
-      <FlatListWithApi />
+      {/* <FlatListWithApi /> */}
+      {/* <JsonAPiCall /> */}
+      {/* <SearchUsingApi /> */}
+      <RefInRN />
     </View>
   );
 }
