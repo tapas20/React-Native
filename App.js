@@ -41,6 +41,7 @@ import FlatListWithApi from "./components/FlatListWithApi";
 import JsonAPiCall from "./components/JsonAPiCall";
 import SearchUsingApi from "./components/SearchUsingApi";
 import RefInRN from "./components/RefInRN";
+import AsyncStorageInRN from "./components/AsyncStorageInRN";
 
 function TapasJ() {
   return (
@@ -112,7 +113,8 @@ export default function App() {
       {/* <FlatListWithApi /> */}
       {/* <JsonAPiCall /> */}
       {/* <SearchUsingApi /> */}
-      <RefInRN />
+      {/* <RefInRN /> */}
+      <AsyncStorageInRN />
     </View>
   );
 }
